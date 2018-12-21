@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+.content{
+    padding-top: 4%;
+}
+.dp{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello{
+    padding-bottom: 1.2%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    padding-top: 1.2%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    font-size:70%;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  a:hover .tooltiptext {
+    visibility: visible;
+  }
